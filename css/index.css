@@ -1,38 +1,77 @@
 body {
-    background-color: #96aeda;
+    background-image: url(../imgs/ACADBD16-702D-4A08-807D-36D215C29134.JPEG);
+    background-size: cover;
 }
 
 @font-face {
-    font-family: Grotley-I;
-    src: url(font/GrotleyItalic-7BD9D.otf);
+    font-family: Montserrat;
+    src: url(font/Montserrat-VariableFont_wght.ttf);
 }
 
 @font-face {
-    font-family: Grotley;
-    src: url(font/GrotleyRegular-mLEWv.otf);
+    font-family: Bright;
+    src: url(font/Bright\ DEMO.otf);
 }
 
 .container {
-    margin-left: auto;
-    margin-right: auto;
+    text-align: center;
+    animation: fadeIn 2s;
+}
+
+@keyframes fadeIn {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+    
 }
 
 #intro {
-    font-family: Grotley-I;
-    margin-top: 5%;
-    margin-left: 10%;
-    font-size: x-large;
+    font-family: Montserrat;
+    margin-top: 14%;
+    text-shadow: 1px 1px #ed8495;
+    color: #f3abb3;
+
 }
 
-#logo {
-    border-radius: 50%;
+#name {
+    font-family: Bright;
+    text-shadow: 1px 1px #ed8495;
+    color: #f3abb3;
     margin-top: -2%;
     margin-bottom: -2%;
 }
 
 #job {
-    font-family: Grotley;
-    margin-bottom: 5%;
-    margin-left: 10%;
-    font-size: x-large;
+    font-family: Montserrat;
+    text-shadow: 1px 1px #ed8495;
+    color: #f3abb3;
 }
+
+@media screen and (min-width: 320px) {
+    body {
+      font-size: calc(16px + 6 * ((100vw - 320px) / 680));
+    }
+    #intro {
+        font-size: max(4vw);
+    }
+    #name {
+        font-size: max(7vw);
+    }
+    #job {
+        font-size: max(2vw);
+    }
+  }
+  @media screen and (min-width: 1000px) {
+    body {
+      font-size: 22px;
+    }
+  }
+
+  #link {
+    font-family: Montserrat;
+    text-decoration: none;
+    background-color: #efe3e5;
+    color: #f3abb3;
+    border: #ed8495 1px solid;
+    padding: 0.5%;
+    margin-top: 20px;
+  }
