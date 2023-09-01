@@ -1,15 +1,21 @@
 @font-face {
-    font-family: Grotley;
-    src: url(font/GrotleyRegular-mLEWv.otf);
+    font-family: Bright;
+    src: url(font/Bright\ DEMO.otf);
+}
+
+@font-face {
+    font-family: Montserrat;
+    src: url(font/Montserrat-VariableFont_wght.ttf);
 }
 
 #logo {
-    border-radius: 50%;
-    margin: 10px;
+    margin: 0.2%;
+    padding: 1.5%;
 }
 
 body {
-    background-color: rgb(175, 193, 231);
+    background-image: url(../imgs/ACADBD16-702D-4A08-807D-36D215C29134.JPEG);
+    background-size: cover;
 }
 
 #nav {
