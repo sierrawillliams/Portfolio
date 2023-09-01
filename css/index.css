@@ -1,0 +1,38 @@
+body {
+    background-color: #96aeda;
+}
+
+@font-face {
+    font-family: Grotley-I;
+    src: url(font/GrotleyItalic-7BD9D.otf);
+}
+
+@font-face {
+    font-family: Grotley;
+    src: url(font/GrotleyRegular-mLEWv.otf);
+}
+
+.container {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#intro {
+    font-family: Grotley-I;
+    margin-top: 5%;
+    margin-left: 10%;
+    font-size: x-large;
+}
+
+#logo {
+    border-radius: 50%;
+    margin-top: -2%;
+    margin-bottom: -2%;
+}
+
+#job {
+    font-family: Grotley;
+    margin-bottom: 5%;
+    margin-left: 10%;
+    font-size: x-large;
+}
