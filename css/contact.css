@@ -56,8 +56,9 @@ body {
 
 a   {
     text-decoration: none;
-    font-family: Grotley;
+    font-family: Montserrat;
     color: #ed8495;
+
 
 }
 
@@ -66,7 +67,7 @@ a   {
     background-color: #f3b5bd;
     color: white;
     margin: 2%;
-    margin-right: 30%;
+    margin-left: 30%;
     float: left;
     padding-right: 1%;
     animation: fadeIn 3s;
@@ -79,49 +80,70 @@ a   {
     100% {opacity: 1;}
 }
 
-a {
+#title_ {
+    text-align: center;
+    margin-bottom: -3%;
+    margin-top: 5%;
+}
+
+.contact-form {
+    padding: 10%;
+    text-align: center;
+}
+
+.contact-form .form-control {
+height: 43px;
+border-radius: 0px;
+margin-bottom: 20px;
+border: 0px solid #f3b5bd;
+border-radius: 20px;
+box-shadow: 5px 5px #ed8495;
+}
+
+input::placeholder {
+    padding-left: 5%;
+}
+
+textarea::placeholder {
+    padding-left: 5%;
+    padding-top: 5%;
+}
+
+.contact-form #message{
+    height: 104px;
+    width: auto;
+}
+
+.form_submit{
+    width: 45%;
     font-family: Montserrat;
-}
-
-.options {
+    font-weight: 550;
     text-decoration: none;
-    padding-bottom: 1%;
-}
-
-.categories {
-    text-decoration: none;
-    padding-bottom: 1%;
-}
-
-.titles {
-    padding-left: 20px;
-    text-shadow: 2px 2px #ed8495;
-}
-
-#other {
-    margin-left: -25%;
-}
-
-.photos {
-    margin-left: 3%;
-    float: left;
-    margin-right: 2%;
-    margin-bottom: 3%;
-}
-
-#right {
-    float:right;
-}
-
-#lol {
-    font-family: Montserrat;
-    background-color: #f3b5bd;
-    color: white;
-    margin: 2%;
-    margin-left: 70%;
-    padding-right: 1%;
-    animation: fadeIn 3s;
-    box-shadow: 5px 5px #ed8495;
+    background-color: white;
+    color: #f3abb3;
+    border: #ed8495 1px solid;
+    padding: 0.5%;
+    margin-top: 2%;
     border-radius: 20px;
-    float: none;
+    box-shadow: 0 9px #ed8495;
+}
+
+.form_submit:active {
+    background-color: #f3b5bd;
+    box-shadow: 0 5px #ed8495;
+    transform: translateY(4px);
+    color: white;
+}
+
+
+input, textarea, button {
+    font-size: medium;
+}
+
+.btn {
+    text-align: center;
+}
+
+#name, #email, #subject {
+    width: 70%;
 }

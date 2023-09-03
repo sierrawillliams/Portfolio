@@ -34,7 +34,7 @@ body {
 
 #name {
     font-family: Bright;
-    text-shadow: 1px 1px #ed8495;
+    text-shadow: 2px 2px #ed8495;
     color: #f3abb3;
     margin-top: -2%;
     margin-bottom: -2%;
@@ -68,10 +68,42 @@ body {
 
   #link {
     font-family: Montserrat;
+    font-weight: 550;
     text-decoration: none;
     background-color: #efe3e5;
     color: #f3abb3;
     border: #ed8495 1px solid;
     padding: 0.5%;
-    margin-top: 20px;
+    margin-top: 2%;
+    border-radius: 20px;
+    box-shadow: 0 9px #ed8495;
+  }
+
+  #link:active {
+    background-color: #f3b5bd;
+    box-shadow: 0 5px #ed8495;
+    transform: translateY(4px);
+  }
+
+  .typewriter p {
+    overflow: hidden; /* Ensures the content is not revealed until the animation */
+    border-right: .15em solid #f3abb3; /* The typwriter cursor */
+    white-space: nowrap; /* Keeps the content on a single line */
+    margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+    letter-spacing: .15em; /* Adjust as needed */
+    animation: 
+      typing 3.5s steps(40, end),
+      blink-caret .75s step-end infinite;
+  }
+  
+  /* The typing effect */
+  @keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+  }
+  
+  /* The typewriter cursor effect */
+  @keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: #f3abb3; }
   }

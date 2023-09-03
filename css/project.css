@@ -56,22 +56,25 @@ body {
 
 a   {
     text-decoration: none;
-    font-family: Grotley;
+    font-family: Montserrat;
     color: #ed8495;
+}
 
+section {
+    margin-left: 20%;
 }
 
 .main-stuff {
     font-family: Montserrat;
     background-color: #f3b5bd;
     color: white;
+    text-align: center;
     margin: 2%;
-    margin-right: 30%;
     float: left;
-    padding-right: 1%;
     animation: fadeIn 3s;
     box-shadow: 5px 5px #ed8495;
     border-radius: 20px;
+    max-width: 70%;
 }
 
 @keyframes fadeIn {
@@ -79,49 +82,14 @@ a   {
     100% {opacity: 1;}
 }
 
-a {
-    font-family: Montserrat;
+p {
+    font-weight: 500;
+    padding-left: 2%;
+    padding-right: 2%;
+    text-align: start;
 }
 
-.options {
-    text-decoration: none;
-    padding-bottom: 1%;
-}
-
-.categories {
-    text-decoration: none;
-    padding-bottom: 1%;
-}
-
-.titles {
-    padding-left: 20px;
-    text-shadow: 2px 2px #ed8495;
-}
-
-#other {
-    margin-left: -25%;
-}
-
-.photos {
-    margin-left: 3%;
-    float: left;
-    margin-right: 2%;
-    margin-bottom: 3%;
-}
-
-#right {
-    float:right;
-}
-
-#lol {
-    font-family: Montserrat;
-    background-color: #f3b5bd;
-    color: white;
-    margin: 2%;
-    margin-left: 70%;
-    padding-right: 1%;
-    animation: fadeIn 3s;
-    box-shadow: 5px 5px #ed8495;
-    border-radius: 20px;
-    float: none;
+#haha {
+    max-width: inherit;
+    height: auto;
 }
