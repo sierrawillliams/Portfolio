@@ -60,21 +60,15 @@ a   {
     color: #ed8495;
 }
 
-section {
-    margin-left: 20%;
-}
-
 .main-stuff {
     font-family: Montserrat;
     background-color: #f3b5bd;
     color: white;
-    text-align: center;
-    margin: 2%;
-    float: left;
+    margin: 30%;
+    padding: 2% 0;
     animation: fadeIn 3s;
     box-shadow: 5px 5px #ed8495;
     border-radius: 20px;
-    max-width: 70%;
 }
 
 @keyframes fadeIn {
@@ -82,14 +76,13 @@ section {
     100% {opacity: 1;}
 }
 
-p {
-    font-weight: 500;
-    padding-left: 2%;
-    padding-right: 2%;
-    text-align: start;
+#resume {
+    margin-top: 3%;
+    text-align: center;
 }
 
-#haha {
-    max-width: inherit;
-    height: auto;
+#pdf {
+    border-radius: 20px;
+    box-shadow: 5px 5px rgb(253, 232, 232);
+
 }

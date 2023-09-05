@@ -9,8 +9,7 @@
 }
 
 #logo {
-    margin: 0.2%;
-    padding: 1.5%;
+    padding: 1%;
 }
 
 body {
@@ -56,7 +55,7 @@ body {
 
 a   {
     text-decoration: none;
-    font-family: Grotley;
+    font-family: Montserrat;
     color: #ed8495;
 
 }
@@ -65,10 +64,7 @@ a   {
     font-family: Montserrat;
     background-color: #f3b5bd;
     color: white;
-    margin: 2%;
-    margin-right: 30%;
-    float: left;
-    padding-right: 1%;
+    margin: 2% 0 0 0;
     animation: fadeIn 3s;
     box-shadow: 5px 5px #ed8495;
     border-radius: 20px;
@@ -77,10 +73,6 @@ a   {
 @keyframes fadeIn {
     0% {opacity: 0;}
     100% {opacity: 1;}
-}
-
-a {
-    font-family: Montserrat;
 }
 
 .options {
@@ -98,30 +90,76 @@ a {
     text-shadow: 2px 2px #ed8495;
 }
 
-#other {
-    margin-left: -25%;
-}
-
 .photos {
-    margin-left: 3%;
     float: left;
-    margin-right: 2%;
-    margin-bottom: 3%;
+    border-radius: 25px;
+    margin-right: 3%;
 }
 
-#right {
-    float:right;
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 90px;
+    padding: 10px;
 }
 
-#lol {
-    font-family: Montserrat;
-    background-color: #f3b5bd;
+#ABOUT {
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+#technical-skills {
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+
+#otherone {
+    grid-column-start: 2;
+    grid-column-end: 3;
+}
+
+#otherother {
+    grid-column-start: 3;
+    grid-column-end: 4;
+}
+
+#links {
+    grid-column-start: 3;
+    grid-column-end: 4;
+    margin-top: 6%;
+}
+
+.box {
+    padding: 2%;
+}
+
+#about_ {
+    padding-bottom: 10%;
+}
+
+p {
+    font-weight: 500;
+}
+
+#extra {
     color: white;
-    margin: 2%;
-    margin-left: 70%;
-    padding-right: 1%;
-    animation: fadeIn 3s;
-    box-shadow: 5px 5px #ed8495;
-    border-radius: 20px;
-    float: none;
+    text-decoration: none;
 }
+
+#link {
+    text-align: center;
+}
+
+#links_ {
+    padding: 7% 0;
+}
+
+#tech {
+    width: 100%;
+}
+
+#other {
+    width: 100%;
+}
+
+
